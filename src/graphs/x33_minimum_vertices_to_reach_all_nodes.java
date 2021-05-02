@@ -83,7 +83,6 @@ class Solution {
     List<Integer> function(int n, List<List<Integer>> edges) {
 
         List<Integer> res = new ArrayList<>();
-
         int[] in = new int[n];
 
         for (List<Integer> e: edges)

@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffcc6813-3c3d-4b84-98f6-5aaabffc5fc2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/DP/lc_4_partition_array_for_max_sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/DP/lc_5_min_cost_tree_from_leaf_values.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/DP/lc_6_where_will_ball_fall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/DP/lc_7_count_submatrices_with_all_1s.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/DP/lc_8_count_subarrays_with_consecutive_elements_having_same_diff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +42,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="foldersAlwaysOnTop" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -43,6 +50,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/personal/DP" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="inlay.hints.JAVA" />
   </component>
   <component name="RecentsManager">
@@ -53,13 +63,13 @@
       <recent name="$PROJECT_DIR$/src/graphs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.p3_cc_COUNZ">
-    <configuration name="p1_range_min" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personal.segment_tree.p1_range_min" />
+  <component name="RunManager" selected="Application.lc_7_count_submatrices_with_all_1s">
+    <configuration name="lc_4_partition_array_for_max_sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="personal.DP.lc_4_partition_array_for_max_sum" />
       <module name="intellijProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="personal.segment_tree.*" />
+          <option name="PATTERN" value="personal.DP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +77,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="p2_range_sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personal.segment_tree.p2_range_sum" />
+    <configuration name="lc_5_min_cost_tree_from_leaf_values" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="personal.DP.lc_5_min_cost_tree_from_leaf_values" />
       <module name="intellijProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="personal.segment_tree.*" />
+          <option name="PATTERN" value="personal.DP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lc_6_where_will_ball_fall" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="personal.DP.lc_6_where_will_ball_fall" />
+      <module name="intellijProjects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="personal.DP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lc_7_count_submatrices_with_all_1s" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="personal.DP.lc_7_count_submatrices_with_all_1s" />
+      <module name="intellijProjects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="personal.DP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,39 +129,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="x2_maximum_gold" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personal.backtracking.x2_maximum_gold" />
-      <module name="intellijProjects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="personal.backtracking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="x4_max_len_of_concatenated_str_with_uniq_chars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personal.backtracking.x4_max_len_of_concatenated_str_with_uniq_chars" />
-      <module name="intellijProjects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="personal.backtracking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.lc_7_count_submatrices_with_all_1s" />
+        <item itemvalue="Application.lc_6_where_will_ball_fall" />
+        <item itemvalue="Application.lc_5_min_cost_tree_from_leaf_values" />
+        <item itemvalue="Application.lc_4_partition_array_for_max_sum" />
         <item itemvalue="Application.p3_cc_COUNZ" />
-        <item itemvalue="Application.p1_range_min" />
-        <item itemvalue="Application.p2_range_sum" />
-        <item itemvalue="Application.x2_maximum_gold" />
-        <item itemvalue="Application.x4_max_len_of_concatenated_str_with_uniq_chars" />
       </list>
     </recent_temporary>
   </component>
@@ -279,6 +289,31 @@
           <url>file://$PROJECT_DIR$/src/personal/segment_tree/p3_cc_COUNZ.java</url>
           <line>138</line>
           <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/personal/DP/lc_4_partition_array_for_max_sum.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/personal/DP/lc_5_min_cost_tree_from_leaf_values.java</url>
+          <line>96</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/personal/DP/lc_5_min_cost_tree_from_leaf_values.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/personal/DP/lc_6_where_will_ball_fall.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/personal/DP/lc_6_where_will_ball_fall.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="102" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

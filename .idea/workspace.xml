@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ffcc6813-3c3d-4b84-98f6-5aaabffc5fc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personal/DP/lc_4_partition_array_for_max_sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personal/DP/lc_5_min_cost_tree_from_leaf_values.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personal/DP/lc_6_where_will_ball_fall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personal/DP/lc_7_count_submatrices_with_all_1s.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personal/DP/lc_8_count_subarrays_with_consecutive_elements_having_same_diff.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ffcc6813-3c3d-4b84-98f6-5aaabffc5fc2" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ffcc6813-3c3d-4b84-98f6-5aaabffc5fc2" name="Default Changelist" comment="" />
+    <list default="true" id="ffcc6813-3c3d-4b84-98f6-5aaabffc5fc2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/personal/CP/SACH12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/CP/a1_template.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/DP/lc_10_uniq_paths_with_obstacles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/DP/lc_11_greatest_sum_divisible_by_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/DP/lc_9_max_sum_delete_and_earn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/Math/lc_1_GCD_of_2_numbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/Math/lc_2_water_jug_problem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/String/lc_1_rearrange_words_by_length.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/stack/lc_1_next_greater_temprature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/stack/lc_2_132_sequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/stack/lc_3_rolling_balls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +53,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/personal/DP" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/personal/stack" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -48,19 +61,20 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/personal/stack" />
+      <recent name="$PROJECT_DIR$/src/personal/Math" />
+      <recent name="$PROJECT_DIR$/src/personal/CP" />
       <recent name="$PROJECT_DIR$/src/personal/DP" />
       <recent name="$PROJECT_DIR$/src/personal/segment_tree" />
-      <recent name="$PROJECT_DIR$/src/backtracking" />
-      <recent name="$PROJECT_DIR$/src/graphs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.lc_7_count_submatrices_with_all_1s">
-    <configuration name="lc_4_partition_array_for_max_sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personal.DP.lc_4_partition_array_for_max_sum" />
+  <component name="RunManager" selected="Application.lc_3_rolling_balls">
+    <configuration name="lc_1_GCD_of_2_numbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="personal.Math.lc_1_GCD_of_2_numbers" />
       <module name="intellijProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="personal.DP.*" />
+          <option name="PATTERN" value="personal.Math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lc_5_min_cost_tree_from_leaf_values" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personal.DP.lc_5_min_cost_tree_from_leaf_values" />
+    <configuration name="lc_1_next_greater_temprature" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="personal.stack.lc_1_next_greater_temprature" />
       <module name="intellijProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="personal.DP.*" />
+          <option name="PATTERN" value="personal.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lc_6_where_will_ball_fall" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personal.DP.lc_6_where_will_ball_fall" />
+    <configuration name="lc_2_132_sequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="personal.stack.lc_2_132_sequence" />
       <module name="intellijProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="personal.DP.*" />
+          <option name="PATTERN" value="personal.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lc_7_count_submatrices_with_all_1s" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personal.DP.lc_7_count_submatrices_with_all_1s" />
+    <configuration name="lc_2_water_jug_problem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="personal.Math.lc_2_water_jug_problem" />
       <module name="intellijProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="personal.DP.*" />
+          <option name="PATTERN" value="personal.Math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="p3_cc_COUNZ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personal.segment_tree.p3_cc_COUNZ" />
+    <configuration name="lc_3_rolling_balls" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="personal.stack.lc_3_rolling_balls" />
       <module name="intellijProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="personal.segment_tree.*" />
+          <option name="PATTERN" value="personal.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.lc_7_count_submatrices_with_all_1s" />
-        <item itemvalue="Application.lc_6_where_will_ball_fall" />
-        <item itemvalue="Application.lc_5_min_cost_tree_from_leaf_values" />
-        <item itemvalue="Application.lc_4_partition_array_for_max_sum" />
-        <item itemvalue="Application.p3_cc_COUNZ" />
+        <item itemvalue="Application.lc_3_rolling_balls" />
+        <item itemvalue="Application.lc_2_132_sequence" />
+        <item itemvalue="Application.lc_1_next_greater_temprature" />
+        <item itemvalue="Application.lc_2_water_jug_problem" />
+        <item itemvalue="Application.lc_1_GCD_of_2_numbers" />
       </list>
     </recent_temporary>
   </component>
@@ -306,7 +320,48 @@
           <line>88</line>
           <option name="timeStamp" value="102" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/personal/DP/lc_9_max_sum_delete_and_earn.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/personal/String/lc_1_rearrange_words_by_length.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/personal/String/lc_1_rearrange_words_by_length.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/personal/String/lc_1_rearrange_words_by_length.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/personal/Math/lc_2_water_jug_problem.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/personal/stack/lc_3_rolling_balls.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/personal/stack/lc_3_rolling_balls.java</url>
+          <line>89</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="stk" language="JAVA" />
+        <watch expression="curr" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

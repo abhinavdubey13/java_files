@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffcc6813-3c3d-4b84-98f6-5aaabffc5fc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personal/IE/gfg_1_amzn_remove_duplicates_from_array_of_primes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personal/IE/gfg_2_amzn_closest_ele_in_BST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personal/IE/gfg_3_amzn_K_largest_elements_in_array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personal/IE/gfg_4_amzn_min_dist_btwn_2_words.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personal/IE/gfg_5_amzn_connect_nodes_at_same_level.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personal/IE/qstions.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personal/stack/lc_4_verify_stack_sequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personal/stack/lc_5_sum_of_subarrays_minimum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/CP/test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/CP/test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/CP/test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/CP/test4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/CP/test5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personal/IE/qstions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/personal/IE/qstions.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +48,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/personal/IE" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/personal/CP" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -59,14 +56,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/personal/CP" />
       <recent name="$PROJECT_DIR$/src/personal/IE" />
       <recent name="$PROJECT_DIR$/src/personal/stack" />
       <recent name="$PROJECT_DIR$/src/personal/Math" />
-      <recent name="$PROJECT_DIR$/src/personal/CP" />
       <recent name="$PROJECT_DIR$/src/personal/DP" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.gfg_5_amzn_connect_nodes_at_same_level">
+  <component name="RunManager" selected="Application.test3">
     <configuration name="gfg_1_amzn_remove_duplicates_from_array_of_primes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="personal.IE.gfg_1_amzn_remove_duplicates_from_array_of_primes" />
       <module name="intellijProjects" />
@@ -93,32 +90,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lc_3_rolling_balls" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personal.stack.lc_3_rolling_balls" />
-      <module name="intellijProjects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="personal.stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="lc_4_verify_stack_sequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personal.stack.lc_4_verify_stack_sequence" />
-      <module name="intellijProjects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="personal.stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="lc_5_sum_of_subarrays_minimum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="personal.stack.lc_5_sum_of_subarrays_minimum" />
       <module name="intellijProjects" />
@@ -132,13 +103,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="personal.CP.test1" />
+      <module name="intellijProjects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="personal.CP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="personal.CP.test3" />
+      <module name="intellijProjects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="personal.CP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test3" />
+        <item itemvalue="Application.test1" />
         <item itemvalue="Application.gfg_5_amzn_connect_nodes_at_same_level" />
         <item itemvalue="Application.gfg_1_amzn_remove_duplicates_from_array_of_primes" />
         <item itemvalue="Application.lc_5_sum_of_subarrays_minimum" />
-        <item itemvalue="Application.lc_4_verify_stack_sequence" />
-        <item itemvalue="Application.lc_3_rolling_balls" />
       </list>
     </recent_temporary>
   </component>
@@ -377,6 +374,21 @@
           <url>file://$PROJECT_DIR$/src/personal/IE/gfg_5_amzn_connect_nodes_at_same_level.java</url>
           <line>58</line>
           <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/personal/CP/test3.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/personal/CP/test3.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/personal/CP/test3.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="146" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

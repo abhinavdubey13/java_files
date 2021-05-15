@@ -66,11 +66,14 @@ AMAZON
 32. convert string of alphabets to string of digits as in keypad phone : rat==>728
 
 33. reverse linked-list in pairs of K
+34. searching in sorted rotated array , or finding the number of times array was rotated
+35. ways to reach N'th stair
+36. reversing each word in string : abc def ==> cba fed
+    and reversing word sequence   : abc def ==> def abc
 
 
-
-
-
+37. number of binary trees with n nodes (nth catlan number)
+38. check if LL has loop
 
 
 
@@ -160,6 +163,26 @@ AMAZON
     (DP[][] ... ij are starting and ending index)
 
 
+26. K'th smalles element in BST : order statistics
+
+27. print all nodes at distance k from a given node
+
+28. maximum sum subarray : optimise
+
+29. in-place rotation of matrix by 90 degrees
+
+30. check if linked-list is palindrome or not
+
+31. given chess board , and src and target cordinates
+    find minimum number of moves for knight to go from src to dest
+
+
+32. sprially print matrix
+
+33. string matching with pattern having . and * : dynamic programming
+
+34. median of a stream
+
 
 ======================================================
 =========================HARD=========================
@@ -174,8 +197,27 @@ AMAZON
 6. Dijsktra algo , topological sorting code (standard graph algos)
 7. median of 2 sorted arrays
 8. mutex semaphore discussion
+9. segment tree with lazy propagation
+10. KMP string match algo
+11. create Balance Binary tree
+
+12. rotate each ring of matrix anti-clock by k-elements
+    https://www.geeksforgeeks.org/rotate-ring-matrix-anticlockwise-k-elements/
+
+13. sudoku validator
+14. roman number to interger (i have done this on leetcode)
 
 
 
 
-
+=================SYSTEM DESiGN==================
+1. make my trip / book my show
+2. cricket score board
+3. splitwise
+4. parking lot
+5. twitter
+6. stack overflow
+7. elevator
+8. uber
+9. netflix
+10. url shortner (tiny url)

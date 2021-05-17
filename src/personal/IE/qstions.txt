@@ -207,6 +207,8 @@ AMAZON
 13. sudoku validator
 14. roman number to interger (i have done this on leetcode)
 
+15. form number using sequence of 'd' and 'i'
+
 
 
 

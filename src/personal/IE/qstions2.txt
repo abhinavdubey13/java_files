@@ -1,0 +1,46 @@
+OTHERS
+
+========================================================
+=========================EASY===========================
+========================================================
+1. (vizury) form ancestor matrix of a given binary tree
+(solved here)
+
+2. iterative pow(x,y) in log(y) time
+https://www.geeksforgeeks.org/write-an-iterative-olog-y-function-for-powx-y/
+
+
+========================================================
+=========================MEDIUM=========================
+========================================================
+1. (vizury) Given an array of strings,
+find if the given strings can be chained to form a circle.
+A string X can be put before another string Y in circle if
+the last character of X is same as first character of Y.
+https://www.geeksforgeeks.org/given-array-strings-find-strings-can-chained-form-circle/
+(solved here using DFS)
+
+
+2. lexicographically next permutation of string
+For example, lexicographically next permutation of “gfg” is “ggf” and
+next permutation of “acb” is “bac”.
+(similar to next greater number , convert chars to nums and solve in same way)
+
+3. given an array and an int k
+find number of subarrays divisible by k
+https://practice.geeksforgeeks.org/problems/sub-array-sum-divisible-by-k2617/1
+(using hashmap , and running modulo)
+
+
+
+
+
+======================================================
+=========================HARD=========================
+======================================================
+1. How to check if a given point lies inside or outside a polygon?
+https://www.geeksforgeeks.org/how-to-check-if-a-given-point-lies-inside-a-polygon/
+
+
+2. create your own hash-map in java
+https://www.geeksforgeeks.org/internal-working-of-hashmap-java/

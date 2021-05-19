@@ -1,5 +1,7 @@
 package personal.tree;
 
+import personal.models.TreeNode;
+
 /**
  * leetcode id : 1339
  *
@@ -24,26 +26,12 @@ package personal.tree;
  *
  */
 
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode() {
-    }
-
-    TreeNode(int val) {
-        this.val = val;
-    }
-
-    TreeNode(int val, TreeNode left, TreeNode right) {
-        this.val = val;
-        this.left = left;
-        this.right = right;
-    }
-}
 
 public class x39_max_product_by_removing_1_edge {
+
+    public static void main(String[] args) {
+        System.out.println("hello");
+    }
 
 }
 
@@ -73,13 +61,13 @@ class Solution39 {
         int prod_2 = ((TREE_SUM - sum_rst) * sum_rst) % MOD;
         MAX_PROD = Math.max(MAX_PROD, Math.max(prod_1, prod_2));
 
-        return curr.val + sum_rst + sum_lst;
+        return curr.data + sum_rst + sum_lst;
     }
 
 
     void set_tree_sum(TreeNode curr) {
         if (curr != null) {
-            TREE_SUM += curr.val;
+            TREE_SUM += curr.data;
             set_tree_sum(curr.left);
             set_tree_sum(curr.right);
         }

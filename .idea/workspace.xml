@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffcc6813-3c3d-4b84-98f6-5aaabffc5fc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/personal/IE/gfg_6_amzn_sequence_using_D_and_i.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personal/IE/gfg_7_vzry_build_ancestore_matrix_of_binary_tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personal/IE/gfg_8_vzry_check_if_circle_of_string_possible.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personal/IE/qstions2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/LC_premium/template.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/LC_premium/x1_longest_absolute_file_path.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/LC_premium/x2_next_closest_time.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/LC_premium/x3_uniq_email_addresses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/LC_premium/x4_fruits_into_basket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/LC_premium/x5_minimum_domino_rotation_for_equal_row.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/LC_premium/x6_binary_tree_longest_consecutive_nodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/LC_premium/x7_toeplitz_matrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/models/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/personal/CP/test4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personal/CP/test4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/personal/IE/qstions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/personal/IE/qstions.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personal/tree/x39_max_product_by_removing_1_edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personal/tree/x39_max_product_by_removing_1_edge.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,28 +52,28 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/personal/IE" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/personal/LC_premium" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/personal/LC_premium" />
       <recent name="$PROJECT_DIR$/src/personal/IE" />
       <recent name="$PROJECT_DIR$/src/personal/CP" />
       <recent name="$PROJECT_DIR$/src/personal/stack" />
       <recent name="$PROJECT_DIR$/src/personal/Math" />
-      <recent name="$PROJECT_DIR$/src/personal/DP" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.gfg_8_vzry_check_if_circle_of_string_possible">
-    <configuration name="gfg_6_amzn_sequence_using_D_and_i" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personal.IE.gfg_6_amzn_sequence_using_D_and_i" />
+  <component name="RunManager" selected="Application.x7_toeplitz_matrix">
+    <configuration name="x39_max_product_by_removing_1_edge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="personal.tree.x39_max_product_by_removing_1_edge" />
       <module name="intellijProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="personal.IE.*" />
+          <option name="PATTERN" value="personal.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="gfg_7_vzry_build_ancestore_matrix_of_binary_tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personal.IE.gfg_7_vzry_build_ancestore_matrix_of_binary_tree" />
+    <configuration name="x3_uniq_email_addresses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="personal.LC_premium.x3_uniq_email_addresses" />
       <module name="intellijProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="personal.IE.*" />
+          <option name="PATTERN" value="personal.LC_premium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="gfg_8_vzry_check_if_circle_of_string_possible" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personal.IE.gfg_8_vzry_check_if_circle_of_string_possible" />
+    <configuration name="x4_fruits_into_basket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="personal.LC_premium.x4_fruits_into_basket" />
       <module name="intellijProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="personal.IE.*" />
+          <option name="PATTERN" value="personal.LC_premium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personal.CP.test3" />
+    <configuration name="x5_minimum_domino_rotation_for_equal_row" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="personal.LC_premium.x5_minimum_domino_rotation_for_equal_row" />
       <module name="intellijProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="personal.CP.*" />
+          <option name="PATTERN" value="personal.LC_premium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personal.CP.test4" />
+    <configuration name="x7_toeplitz_matrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="personal.LC_premium.x7_toeplitz_matrix" />
       <module name="intellijProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="personal.CP.*" />
+          <option name="PATTERN" value="personal.LC_premium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.gfg_8_vzry_check_if_circle_of_string_possible" />
-        <item itemvalue="Application.gfg_7_vzry_build_ancestore_matrix_of_binary_tree" />
-        <item itemvalue="Application.gfg_6_amzn_sequence_using_D_and_i" />
-        <item itemvalue="Application.test4" />
-        <item itemvalue="Application.test3" />
+        <item itemvalue="Application.x7_toeplitz_matrix" />
+        <item itemvalue="Application.x39_max_product_by_removing_1_edge" />
+        <item itemvalue="Application.x5_minimum_domino_rotation_for_equal_row" />
+        <item itemvalue="Application.x4_fruits_into_basket" />
+        <item itemvalue="Application.x3_uniq_email_addresses" />
       </list>
     </recent_temporary>
   </component>
@@ -394,6 +398,41 @@
           <url>file://$PROJECT_DIR$/src/personal/IE/gfg_8_vzry_check_if_circle_of_string_possible.java</url>
           <line>61</line>
           <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/personal/LC_premium/x1_longest_absolute_file_path.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/personal/LC_premium/x1_longest_absolute_file_path.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/personal/LC_premium/x2_next_closest_time.java</url>
+          <line>124</line>
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/personal/LC_premium/x2_next_closest_time.java</url>
+          <line>115</line>
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/personal/LC_premium/x3_uniq_email_addresses.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/personal/LC_premium/x4_fruits_into_basket.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/personal/LC_premium/x5_minimum_domino_rotation_for_equal_row.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="174" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

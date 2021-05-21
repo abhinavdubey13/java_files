@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffcc6813-3c3d-4b84-98f6-5aaabffc5fc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/personal/LC_premium/template.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personal/LC_premium/x1_longest_absolute_file_path.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personal/LC_premium/x2_next_closest_time.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personal/LC_premium/x3_uniq_email_addresses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personal/LC_premium/x4_fruits_into_basket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personal/LC_premium/x5_minimum_domino_rotation_for_equal_row.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personal/LC_premium/x6_binary_tree_longest_consecutive_nodes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personal/LC_premium/x7_toeplitz_matrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personal/models/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/LC_premium/x10_robot_in_circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/LC_premium/x11_design_tic_tac_toe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/LC_premium/x8_concatenated_words.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/LC_premium/x9_ball_in_maze.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/trie/basics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/personal/tree/x39_max_product_by_removing_1_edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personal/tree/x39_max_product_by_removing_1_edge.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,52 +62,26 @@
       <recent name="$PROJECT_DIR$/src/personal/Math" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.x7_toeplitz_matrix">
+  <component name="RunManager" selected="Application.x9_ball_in_maze">
+    <configuration name="basics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="personal.trie.basics" />
+      <module name="intellijProjects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="personal.trie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="x39_max_product_by_removing_1_edge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="personal.tree.x39_max_product_by_removing_1_edge" />
       <module name="intellijProjects" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="personal.tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="x3_uniq_email_addresses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personal.LC_premium.x3_uniq_email_addresses" />
-      <module name="intellijProjects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="personal.LC_premium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="x4_fruits_into_basket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personal.LC_premium.x4_fruits_into_basket" />
-      <module name="intellijProjects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="personal.LC_premium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="x5_minimum_domino_rotation_for_equal_row" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personal.LC_premium.x5_minimum_domino_rotation_for_equal_row" />
-      <module name="intellijProjects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="personal.LC_premium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,13 +102,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="x8_concatenated_words" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="personal.LC_premium.x8_concatenated_words" />
+      <module name="intellijProjects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="personal.LC_premium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="x9_ball_in_maze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="personal.LC_premium.x9_ball_in_maze" />
+      <module name="intellijProjects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="personal.LC_premium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.x9_ball_in_maze" />
+        <item itemvalue="Application.x8_concatenated_words" />
+        <item itemvalue="Application.basics" />
         <item itemvalue="Application.x7_toeplitz_matrix" />
         <item itemvalue="Application.x39_max_product_by_removing_1_edge" />
-        <item itemvalue="Application.x5_minimum_domino_rotation_for_equal_row" />
-        <item itemvalue="Application.x4_fruits_into_basket" />
-        <item itemvalue="Application.x3_uniq_email_addresses" />
       </list>
     </recent_temporary>
   </component>
@@ -436,11 +431,5 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="stk" language="JAVA" />
-        <watch expression="curr" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>

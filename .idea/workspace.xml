@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffcc6813-3c3d-4b84-98f6-5aaabffc5fc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/personal/LC_premium/x12_max_area_of_island.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personal/LC_premium/x13_employee_free_time.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personal/LC_premium/x14_string_compression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personal/LC_premium/x15_duration_divisible_by_60.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personal/LC_premium/x16_text_justification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/LC_premium/binary_search/x1_shipping_capacity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/LC_premium/binary_search/x2_coco_eating_bananas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/LC_premium/binary_search/x3_split_array_for_largest_sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/LC_premium/binary_search/x4_minimum_days_for_bouquets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/LC_premium/binary_search/x5_kth_smallest_number_in_multiplication_table.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/LC_premium/binary_search/x6_kth_smallest_pair_difference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/LC_premium/x17_candy_crush.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +49,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/personal/LC_premium" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/personal/LC_premium/binary_search" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -55,20 +57,20 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/personal/LC_premium/binary_search" />
       <recent name="$PROJECT_DIR$/src/personal/LC_premium" />
       <recent name="$PROJECT_DIR$/src/personal/IE" />
       <recent name="$PROJECT_DIR$/src/personal/CP" />
       <recent name="$PROJECT_DIR$/src/personal/stack" />
-      <recent name="$PROJECT_DIR$/src/personal/Math" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.x16_text_justification">
-    <configuration name="x12_max_area_of_island" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personal.LC_premium.x12_max_area_of_island" />
+  <component name="RunManager" selected="Application.x5_kth_smallest_number_in_multiplication_table">
+    <configuration name="x1_shipping_capacity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="personal.LC_premium.binary_search.x1_shipping_capacity" />
       <module name="intellijProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="personal.LC_premium.*" />
+          <option name="PATTERN" value="personal.LC_premium.binary_search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="x14_string_compression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personal.LC_premium.x14_string_compression" />
+    <configuration name="x2_coco_eating_bananas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="personal.LC_premium.binary_search.x2_coco_eating_bananas" />
       <module name="intellijProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="personal.LC_premium.*" />
+          <option name="PATTERN" value="personal.LC_premium.binary_search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="x15_duration_divisible_by_60" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personal.LC_premium.x15_duration_divisible_by_60" />
+    <configuration name="x3_split_array_for_largest_sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="personal.LC_premium.binary_search.x3_split_array_for_largest_sum" />
       <module name="intellijProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="personal.LC_premium.*" />
+          <option name="PATTERN" value="personal.LC_premium.binary_search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="x16_text_justification" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personal.LC_premium.x16_text_justification" />
+    <configuration name="x4_minimum_days_for_bouquets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="personal.LC_premium.binary_search.x4_minimum_days_for_bouquets" />
       <module name="intellijProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="personal.LC_premium.*" />
+          <option name="PATTERN" value="personal.LC_premium.binary_search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="x9_ball_in_maze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personal.LC_premium.x9_ball_in_maze" />
+    <configuration name="x5_kth_smallest_number_in_multiplication_table" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="personal.LC_premium.binary_search.x5_kth_smallest_number_in_multiplication_table" />
       <module name="intellijProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="personal.LC_premium.*" />
+          <option name="PATTERN" value="personal.LC_premium.binary_search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.x16_text_justification" />
-        <item itemvalue="Application.x15_duration_divisible_by_60" />
-        <item itemvalue="Application.x14_string_compression" />
-        <item itemvalue="Application.x12_max_area_of_island" />
-        <item itemvalue="Application.x9_ball_in_maze" />
+        <item itemvalue="Application.x5_kth_smallest_number_in_multiplication_table" />
+        <item itemvalue="Application.x4_minimum_days_for_bouquets" />
+        <item itemvalue="Application.x3_split_array_for_largest_sum" />
+        <item itemvalue="Application.x2_coco_eating_bananas" />
+        <item itemvalue="Application.x1_shipping_capacity" />
       </list>
     </recent_temporary>
   </component>
@@ -448,6 +450,36 @@
           <url>file://$PROJECT_DIR$/src/personal/LC_premium/x16_text_justification.java</url>
           <line>70</line>
           <option name="timeStamp" value="217" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/personal/LC_premium/binary_search/x2_coco_eating_bananas.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="222" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/personal/LC_premium/binary_search/x2_coco_eating_bananas.java</url>
+          <line>107</line>
+          <option name="timeStamp" value="223" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/personal/LC_premium/binary_search/x4_minimum_days_for_bouquets.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="224" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/personal/LC_premium/binary_search/x4_minimum_days_for_bouquets.java</url>
+          <line>96</line>
+          <option name="timeStamp" value="227" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/personal/LC_premium/binary_search/x4_minimum_days_for_bouquets.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="229" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/personal/LC_premium/binary_search/x4_minimum_days_for_bouquets.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="230" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

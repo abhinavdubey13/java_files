@@ -1,5 +1,7 @@
 package personal.trie;
 
+import personal.models.TrieNode;
+
 
 /**
  *
@@ -12,14 +14,7 @@ package personal.trie;
 
 
 
-class TrieNode {
-    TrieNode[] children;
-    int end_of_word;
 
-    TrieNode() {
-        this.children = new TrieNode[26];
-    }
-}
 
 class Trie {
     private TrieNode root;

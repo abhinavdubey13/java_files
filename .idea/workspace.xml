@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffcc6813-3c3d-4b84-98f6-5aaabffc5fc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/personal/LC_premium/binary_search/x1_shipping_capacity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personal/LC_premium/binary_search/x2_coco_eating_bananas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personal/LC_premium/binary_search/x3_split_array_for_largest_sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personal/LC_premium/binary_search/x4_minimum_days_for_bouquets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personal/LC_premium/binary_search/x5_kth_smallest_number_in_multiplication_table.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personal/LC_premium/binary_search/x6_kth_smallest_pair_difference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personal/LC_premium/x17_candy_crush.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/models/TrieNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/trie/x1_longest_word_in_dictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/trie/x2_auto_complete_system.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/trie/x3_design_add_n_search_data_structure.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personal/trie/basics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personal/trie/basics.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,9 +32,6 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="3" />
-  </component>
   <component name="ProjectId" id="1rvPSdad3IuBcjT4qtUq1LlNMtr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -49,7 +44,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/personal/LC_premium/binary_search" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/personal/trie" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -57,20 +52,20 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/personal/trie" />
       <recent name="$PROJECT_DIR$/src/personal/LC_premium/binary_search" />
       <recent name="$PROJECT_DIR$/src/personal/LC_premium" />
       <recent name="$PROJECT_DIR$/src/personal/IE" />
       <recent name="$PROJECT_DIR$/src/personal/CP" />
-      <recent name="$PROJECT_DIR$/src/personal/stack" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.x5_kth_smallest_number_in_multiplication_table">
-    <configuration name="x1_shipping_capacity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personal.LC_premium.binary_search.x1_shipping_capacity" />
+  <component name="RunManager" selected="Application.x3_design_add_n_search_data_structure">
+    <configuration name="x1_longest_word_in_dictionary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="personal.trie.x1_longest_word_in_dictionary" />
       <module name="intellijProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="personal.LC_premium.binary_search.*" />
+          <option name="PATTERN" value="personal.trie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="x2_coco_eating_bananas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personal.LC_premium.binary_search.x2_coco_eating_bananas" />
+    <configuration name="x3_design_add_n_search_data_structure" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="personal.trie.x3_design_add_n_search_data_structure" />
       <module name="intellijProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="personal.LC_premium.binary_search.*" />
+          <option name="PATTERN" value="personal.trie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.x3_design_add_n_search_data_structure" />
+        <item itemvalue="Application.x1_longest_word_in_dictionary" />
         <item itemvalue="Application.x5_kth_smallest_number_in_multiplication_table" />
         <item itemvalue="Application.x4_minimum_days_for_bouquets" />
         <item itemvalue="Application.x3_split_array_for_largest_sum" />
-        <item itemvalue="Application.x2_coco_eating_bananas" />
-        <item itemvalue="Application.x1_shipping_capacity" />
       </list>
     </recent_temporary>
   </component>
@@ -480,6 +475,21 @@
           <url>file://$PROJECT_DIR$/src/personal/LC_premium/binary_search/x4_minimum_days_for_bouquets.java</url>
           <line>80</line>
           <option name="timeStamp" value="230" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/personal/trie/x1_longest_word_in_dictionary.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="231" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/personal/trie/x3_design_add_n_search_data_structure.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="233" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/personal/trie/x3_design_add_n_search_data_structure.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="234" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

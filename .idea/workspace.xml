@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffcc6813-3c3d-4b84-98f6-5aaabffc5fc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/personal/models/TrieNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personal/trie/x1_longest_word_in_dictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personal/trie/x2_auto_complete_system.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personal/trie/x3_design_add_n_search_data_structure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/CP/Reader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/CP/tt1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/CP/tt2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/CP/tt3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/trie/x4_top_k_frequent_words.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/trie/x5_palindrome_pairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/trie/x6_word_search_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/trie/x7_word_with_given_prefix_n_sufix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/personal/trie/basics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personal/trie/basics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personal/DP/lc_2_number_of_submatrices_with_all_1s.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personal/DP/lc_2_number_of_submatrices_with_all_1s.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personal/trie/x2_auto_complete_system.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personal/trie/x2_auto_complete_system.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,15 +58,41 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/personal/trie" />
+      <recent name="$PROJECT_DIR$/src/personal/CP" />
       <recent name="$PROJECT_DIR$/src/personal/LC_premium/binary_search" />
       <recent name="$PROJECT_DIR$/src/personal/LC_premium" />
       <recent name="$PROJECT_DIR$/src/personal/IE" />
-      <recent name="$PROJECT_DIR$/src/personal/CP" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.x3_design_add_n_search_data_structure">
-    <configuration name="x1_longest_word_in_dictionary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personal.trie.x1_longest_word_in_dictionary" />
+  <component name="RunManager" selected="Application.x7_word_with_given_prefix_n_sufix">
+    <configuration name="tt2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="personal.CP.tt2" />
+      <module name="intellijProjects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="personal.CP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tt3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="personal.CP.tt3" />
+      <module name="intellijProjects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="personal.CP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="x2_auto_complete_system" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="personal.trie.x2_auto_complete_system" />
       <module name="intellijProjects" />
       <extension name="coverage">
         <pattern>
@@ -73,8 +104,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="x3_design_add_n_search_data_structure" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personal.trie.x3_design_add_n_search_data_structure" />
+    <configuration name="x4_top_k_frequent_words" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="personal.trie.x4_top_k_frequent_words" />
       <module name="intellijProjects" />
       <extension name="coverage">
         <pattern>
@@ -86,38 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="x3_split_array_for_largest_sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personal.LC_premium.binary_search.x3_split_array_for_largest_sum" />
+    <configuration name="x7_word_with_given_prefix_n_sufix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="personal.trie.x7_word_with_given_prefix_n_sufix" />
       <module name="intellijProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="personal.LC_premium.binary_search.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="x4_minimum_days_for_bouquets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personal.LC_premium.binary_search.x4_minimum_days_for_bouquets" />
-      <module name="intellijProjects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="personal.LC_premium.binary_search.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="x5_kth_smallest_number_in_multiplication_table" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personal.LC_premium.binary_search.x5_kth_smallest_number_in_multiplication_table" />
-      <module name="intellijProjects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="personal.LC_premium.binary_search.*" />
+          <option name="PATTERN" value="personal.trie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.x3_design_add_n_search_data_structure" />
-        <item itemvalue="Application.x1_longest_word_in_dictionary" />
-        <item itemvalue="Application.x5_kth_smallest_number_in_multiplication_table" />
-        <item itemvalue="Application.x4_minimum_days_for_bouquets" />
-        <item itemvalue="Application.x3_split_array_for_largest_sum" />
+        <item itemvalue="Application.x7_word_with_given_prefix_n_sufix" />
+        <item itemvalue="Application.x4_top_k_frequent_words" />
+        <item itemvalue="Application.x2_auto_complete_system" />
+        <item itemvalue="Application.tt3" />
+        <item itemvalue="Application.tt2" />
       </list>
     </recent_temporary>
   </component>
@@ -490,6 +495,24 @@
           <url>file://$PROJECT_DIR$/src/personal/trie/x3_design_add_n_search_data_structure.java</url>
           <line>79</line>
           <option name="timeStamp" value="234" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/personal/CP/tt2.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="235" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/personal/trie/x7_word_with_given_prefix_n_sufix.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="238" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/personal/CP/tt2.java</url>
+          <line>15</line>
+          <properties class="personal.CP.tt2" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="236" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

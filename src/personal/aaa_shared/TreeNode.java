@@ -1,4 +1,4 @@
-package personal.models;
+package personal.aaa_shared;
 
 
 @SuppressWarnings("unused")

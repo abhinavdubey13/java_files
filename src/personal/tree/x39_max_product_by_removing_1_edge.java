@@ -1,6 +1,6 @@
 package personal.tree;
 
-import personal.models.TreeNode;
+import personal.aaa_shared.TreeNode;
 
 /**
  * leetcode id : 1339

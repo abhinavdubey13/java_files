@@ -1,6 +1,6 @@
 package personal.LC_premium;
 
-import personal.models.TreeNode;
+import personal.aaa_shared.TreeNode;
 
 
 /**

@@ -1,6 +1,6 @@
 package personal.trie;
 
-import personal.models.TrieNode;
+import personal.aaa_shared.TrieNode;
 
 
 /**

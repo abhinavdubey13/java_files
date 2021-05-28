@@ -1,9 +1,6 @@
 package personal.trie;
 
-import personal.models.TrieNode;
-
-import java.util.Arrays;
-import java.util.Comparator;
+import personal.aaa_shared.TrieNode;
 
 /**
  * leetcode : 211

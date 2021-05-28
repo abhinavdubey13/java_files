@@ -1,30 +1,14 @@
-package personal.CP;
+package personal.aaa_shared;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.StringTokenizer;
+import java.io.*;
+import java.util.*;
 
-/**
- *
- * codechef id :
- *
- *
- *
- *
- */
+public class Reader {
 
-/**
- *
- *
- */
-
-
-class a1_template_reader {
     BufferedReader br;
     StringTokenizer st;
 
-    public a1_template_reader() {
+    public Reader() {
         br = new BufferedReader(new InputStreamReader(System.in));
     }
 
@@ -59,35 +43,4 @@ class a1_template_reader {
         }
         return str;
     }
-
-}
-
-
-public class a1_template {
-
-    public static void main(String[] args) {
-
-        a1_template_reader sc = new a1_template_reader();
-        int t = sc.nextInt();
-        a1_template_soln solution = new a1_template_soln();
-
-        while (t-- > 0) {
-            //taking row and col inp
-            int n = sc.nextInt();
-            int ans = solution.function(n);
-            System.out.println(ans);
-        }
-
-
-    }
-}
-
-
-class a1_template_soln {
-
-    int function(int n) {
-
-        return n;
-    }
-
 }

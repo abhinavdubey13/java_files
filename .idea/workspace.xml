@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffcc6813-3c3d-4b84-98f6-5aaabffc5fc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/personal/CP/Reader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personal/CP/tt1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personal/CP/tt2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personal/CP/tt3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personal/trie/x4_top_k_frequent_words.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personal/trie/x5_palindrome_pairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personal/trie/x6_word_search_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personal/trie/x7_word_with_given_prefix_n_sufix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/personal/DP/lc_2_number_of_submatrices_with_all_1s.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personal/DP/lc_2_number_of_submatrices_with_all_1s.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/personal/trie/x2_auto_complete_system.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personal/trie/x2_auto_complete_system.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

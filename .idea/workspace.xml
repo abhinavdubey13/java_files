@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffcc6813-3c3d-4b84-98f6-5aaabffc5fc2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/personal/bit_manipulation/1_readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/bit_manipulation/concept_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/bit_manipulation/concept_2_rmsb_mask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/code_chef/DP/cc_1_XYSTR.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personal/aaa_shared/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personal/aaa_shared/Reader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +31,13 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="ProblemsViewState">
+    <hideBySeverity>
+      <option value="15" />
+      <option value="200" />
+      <option value="300" />
+    </hideBySeverity>
   </component>
   <component name="ProjectId" id="1rvPSdad3IuBcjT4qtUq1LlNMtr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -53,14 +65,17 @@
       <recent name="$PROJECT_DIR$/src/personal/LC_premium" />
       <recent name="$PROJECT_DIR$/src/personal/IE" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="personal.bit_manipulation" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.x7_word_with_given_prefix_n_sufix">
-    <configuration name="tt2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personal.CP.tt2" />
+  <component name="RunManager" selected="Application.concept_2_rmsb_mask">
+    <configuration name="cc_1_XYSTR" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="personal.code_chef.DP.cc_1_XYSTR" />
       <module name="intellijProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="personal.CP.*" />
+          <option name="PATTERN" value="personal.code_chef.DP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tt3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personal.CP.tt3" />
+    <configuration name="concept_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="personal.bit_manipulation.concept_1" />
       <module name="intellijProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="personal.CP.*" />
+          <option name="PATTERN" value="personal.bit_manipulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="x2_auto_complete_system" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personal.trie.x2_auto_complete_system" />
+    <configuration name="concept_2_rmsb_mask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="personal.bit_manipulation.concept_2_rmsb_mask" />
       <module name="intellijProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="personal.trie.*" />
+          <option name="PATTERN" value="personal.bit_manipulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.concept_2_rmsb_mask" />
+        <item itemvalue="Application.concept_1" />
+        <item itemvalue="Application.cc_1_XYSTR" />
         <item itemvalue="Application.x7_word_with_given_prefix_n_sufix" />
         <item itemvalue="Application.x4_top_k_frequent_words" />
-        <item itemvalue="Application.x2_auto_complete_system" />
-        <item itemvalue="Application.tt3" />
-        <item itemvalue="Application.tt2" />
       </list>
     </recent_temporary>
   </component>
@@ -478,17 +493,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/personal/trie/x3_design_add_n_search_data_structure.java</url>
-          <line>46</line>
+          <line>43</line>
           <option name="timeStamp" value="233" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/personal/trie/x3_design_add_n_search_data_structure.java</url>
-          <line>79</line>
+          <line>76</line>
           <option name="timeStamp" value="234" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/personal/CP/tt2.java</url>
-          <line>42</line>
+          <line>44</line>
           <option name="timeStamp" value="235" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -496,10 +511,20 @@
           <line>82</line>
           <option name="timeStamp" value="238" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/personal/code_chef/DP/cc_1_XYSTR.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="240" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/personal/code_chef/DP/cc_1_XYSTR.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="243" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/personal/CP/tt2.java</url>
-          <line>15</line>
-          <properties class="personal.CP.tt2" method="main">
+          <line>17</line>
+          <properties class="personal.CP.tt2">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="236" />

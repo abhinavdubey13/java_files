@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffcc6813-3c3d-4b84-98f6-5aaabffc5fc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/personal/CP/CP_qstion/cc1_cheating_time.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personal/CP/CP_qstion/cc2_minimum_popping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/bit_manipulation/lc_1_minimum_developers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/bit_manipulation/lc_2_valid_words_for_puzzle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/bit_manipulation/p1_count_set_bits_in_number.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/bit_manipulation/p2_circle_kill_with_k_equals_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/bit_manipulation/p3_circle_kill_with_k_generalized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/bit_manipulation/p4_all_repeating_elements_except_2_uniques.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/bit_manipulation/p5_xor_of_sum_of_all_pairs_in_array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/bit_manipulation/p6_min_of_xor_pairs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +53,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/personal/CP/CP_qstion" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/personal/bit_manipulation" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -55,32 +61,19 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/personal/bit_manipulation" />
       <recent name="$PROJECT_DIR$/src/personal/CP/CP_qstion" />
       <recent name="$PROJECT_DIR$/src/personal/trie" />
       <recent name="$PROJECT_DIR$/src/personal/CP" />
       <recent name="$PROJECT_DIR$/src/personal/LC_premium/binary_search" />
-      <recent name="$PROJECT_DIR$/src/personal/LC_premium" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="personal.bit_manipulation" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.cc2_minimum_popping">
-    <configuration name="cc2_minimum_popping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personal.CP.CP_qstion.cc2_minimum_popping" />
-      <module name="intellijProjects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="personal.CP.CP_qstion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="concept_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personal.bit_manipulation.concept_1" />
+  <component name="RunManager" selected="Application.p4_all_repeating_elements_except_2_uniques">
+    <configuration name="lc_1_minimum_developers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="personal.bit_manipulation.lc_1_minimum_developers" />
       <module name="intellijProjects" />
       <extension name="coverage">
         <pattern>
@@ -92,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="concept_2_rmsb_mask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personal.bit_manipulation.concept_2_rmsb_mask" />
+    <configuration name="lc_2_valid_words_for_puzzle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="personal.bit_manipulation.lc_2_valid_words_for_puzzle" />
       <module name="intellijProjects" />
       <extension name="coverage">
         <pattern>
@@ -105,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personal.CP.CP_qstion.test2" />
+    <configuration name="p2_circle_kill_with_k_equals_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="personal.bit_manipulation.p2_circle_kill_with_k_equals_2" />
       <module name="intellijProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="personal.CP.CP_qstion.*" />
+          <option name="PATTERN" value="personal.bit_manipulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +111,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personal.CP.CP_qstion.test4" />
+    <configuration name="p3_circle_kill_with_k_generalized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="personal.bit_manipulation.p3_circle_kill_with_k_generalized" />
       <module name="intellijProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="personal.CP.CP_qstion.*" />
+          <option name="PATTERN" value="personal.bit_manipulation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="p4_all_repeating_elements_except_2_uniques" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="personal.bit_manipulation.p4_all_repeating_elements_except_2_uniques" />
+      <module name="intellijProjects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="personal.bit_manipulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.cc2_minimum_popping" />
-        <item itemvalue="Application.test4" />
-        <item itemvalue="Application.test2" />
-        <item itemvalue="Application.concept_2_rmsb_mask" />
-        <item itemvalue="Application.concept_1" />
+        <item itemvalue="Application.p4_all_repeating_elements_except_2_uniques" />
+        <item itemvalue="Application.lc_2_valid_words_for_puzzle" />
+        <item itemvalue="Application.lc_1_minimum_developers" />
+        <item itemvalue="Application.p3_circle_kill_with_k_generalized" />
+        <item itemvalue="Application.p2_circle_kill_with_k_equals_2" />
       </list>
     </recent_temporary>
   </component>
@@ -521,6 +527,16 @@
           <url>file://$PROJECT_DIR$/src/personal/CP/CP_qstion/cc1_cheating_time.java</url>
           <line>97</line>
           <option name="timeStamp" value="251" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/personal/bit_manipulation/lc_1_minimum_developers.java</url>
+          <line>98</line>
+          <option name="timeStamp" value="252" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/personal/bit_manipulation/lc_2_valid_words_for_puzzle.java</url>
+          <line>100</line>
+          <option name="timeStamp" value="253" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/personal/CP/tt2.java</url>

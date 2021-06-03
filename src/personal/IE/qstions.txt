@@ -15,7 +15,7 @@ AMAZON
 
 
 6.  Given an array of positive numbers, find the maximum sum of a subsequence
-    with the constraint that no 2 numbers in the sequence should be adjacent in the array.
+    with the constraint that NO 2 numbers in the sequence should be adjacent in the array.
     (extended to negative numbers)
 
 7. level-order traversal and level-order traversal in sprial form
@@ -67,7 +67,9 @@ AMAZON
 
 33. reverse linked-list in pairs of K
 34. searching in sorted rotated array , or finding the number of times array was rotated
-35. ways to reach N'th stair
+35. ways to reach N'th stair , order does NOT matter
+(2,1,1 = 1,2,1 = 1,1,2)
+
 36. reversing each word in string : abc def ==> cba fed
     and reversing word sequence   : abc def ==> def abc
 
@@ -103,7 +105,9 @@ AMAZON
 7. given binary tree , all leaf nodes are forming doubly linked list , find height of tree
    (criterial for checking leaf node will change :
    earlier we checked node.left==null && node.right==null
-   now we will check node == node.left.right && node == node.right.left)
+   now we will check
+   node == node.left.right && node == node.right.left)
+   both conditions must satisfy.
 
 8. LRU cache
 
@@ -136,7 +140,7 @@ AMAZON
 
 17. serialize/de-serialize a binary tree
 
-18 trapping rain water
+18. trapping rain water
 
 19. given 2 tree's root nodes , find if 2nd is subtree of another
     (Solution : get inorder and postorder string of both subtree ,
@@ -150,7 +154,7 @@ AMAZON
 
 
 22. alien dictionary : order of words
-    (topological sorting)
+    (topological sorting , or using BFS+indegree)
 
 
 23. print all possible valid parenthesis
@@ -163,7 +167,7 @@ AMAZON
     (DP[][] ... ij are starting and ending index)
 
 
-26. K'th smalles element in BST : order statistics
+26. K'th smallest element in BST : order statistics
 
 27. print all nodes at distance k from a given node
 
@@ -173,8 +177,10 @@ AMAZON
 
 30. check if linked-list is palindrome or not
 
-31. given chess board , and src and target cordinates
+31. a.)given chess board , and src and target cordinates
     find minimum number of moves for knight to go from src to dest
+
+    b.)also there is another variation : knight probability
 
 
 32. sprially print matrix
@@ -207,7 +213,8 @@ AMAZON
 13. sudoku validator
 14. roman number to interger (i have done this on leetcode)
 
-15. form number using sequence of 'd' and 'i'
+15. form smallest possible number using sequence of 'd' and 'i'
+example : idd =>  3421
 
 
 
@@ -223,3 +230,9 @@ AMAZON
 8. uber
 9. netflix
 10. url shortner (tiny url)
+
+
+
+CHECK :
+all matrix qstions
+m-9 , 13 , 14 , 15

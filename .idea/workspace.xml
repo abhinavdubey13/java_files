@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffcc6813-3c3d-4b84-98f6-5aaabffc5fc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/personal/CP/CP_qstion/cc3_charges.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personal/CP/CP_qstion/cc4_number_of_components.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/IE/parenthesis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/array/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/graphs/topological_sort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personal/IE/qstions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/personal/IE/qstions.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,26 +67,13 @@
       <recent name="personal.bit_manipulation" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.t2">
-    <configuration name="p4_all_repeating_elements_except_2_uniques" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personal.bit_manipulation.p4_all_repeating_elements_except_2_uniques" />
+  <component name="RunManager" selected="Application.topological_sort">
+    <configuration name="parenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="personal.IE.parenthesis" />
       <module name="intellijProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="personal.bit_manipulation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="t1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personal.CP.CP_qstion.t1" />
-      <module name="intellijProjects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="personal.CP.CP_qstion.*" />
+          <option name="PATTERN" value="personal.IE.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +107,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="t4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personal.CP.rough.t4" />
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="personal.array.test" />
       <module name="intellijProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="personal.CP.CP_qstion.*" />
+          <option name="PATTERN" value="personal.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="topological_sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="personal.graphs.topological_sort" />
+      <module name="intellijProjects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="personal.graphs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.topological_sort" />
+        <item itemvalue="Application.parenthesis" />
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.t2" />
         <item itemvalue="Application.t3" />
-        <item itemvalue="Application.t4" />
-        <item itemvalue="Application.t1" />
-        <item itemvalue="Application.p4_all_repeating_elements_except_2_uniques" />
       </list>
     </recent_temporary>
   </component>
@@ -536,6 +538,11 @@
           <url>file://$PROJECT_DIR$/src/personal/CP/CP_qstion/cc3_charges.java</url>
           <line>44</line>
           <option name="timeStamp" value="255" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/personal/IE/parenthesis.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="256" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/personal/CP/tt2.java</url>

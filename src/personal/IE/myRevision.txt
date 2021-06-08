@@ -1,0 +1,18 @@
+
+=========
+TREE :
+=========
+1. all possible BST for numbers from 1-n
+2. given level order traversal of tree , check if it is BST
+
+=======
+DP :
+======
+1. number of sub-seq of form (a^i)(b^j)(c^k), from a string of a,b,c
+   where i,j,k > 0
+
+2. string CRUD (convert s1 to s2 using crud)
+3. coin alternate game
+4. given L and B as sides of an A4 sheet , find min number of square we can cut from it
+5. nth catlan number and binomial coeff
+6. number of heaps with n nodes

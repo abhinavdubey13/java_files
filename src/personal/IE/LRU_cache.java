@@ -34,6 +34,15 @@ class DLinkedNode {
     int value;
     DLinkedNode prev;
     DLinkedNode next;
+
+    DLinkedNode() {
+    }
+
+    DLinkedNode(int k, int v) {
+        this.key = k;
+        this.value = v;
+    }
+
 }
 
 class LRU {
@@ -65,15 +74,16 @@ class LRU {
         next.prev = prev;
     }
 
-    private void moveToRear(DLinkedNode node) {
-        removeGivenNode(node);
-        addAtLast(node);
-    }
 
     private DLinkedNode removeHead() {
         DLinkedNode res = FRONT.next;
         removeGivenNode(res);
         return res;
+    }
+
+    private void moveToRear(DLinkedNode node) {
+        removeGivenNode(node);
+        addAtLast(node);
     }
 
 
@@ -100,28 +110,24 @@ class LRU {
     }
 
     public void put(int key, int value) {
-        DLinkedNode node = cache.get(key);
+        DLinkedNode already = cache.get(key);
 
-        if (node == null) {
-            DLinkedNode newNode = new DLinkedNode();
-            newNode.key = key;
-            newNode.value = value;
 
-            cache.put(key, newNode);
-            addAtLast(newNode);
-
-            ++size;
-
-            if (size > capacity) {
-                // pop the head
-                DLinkedNode head = removeHead();
-                cache.remove(head.key);
-                --size;
-            }
-        } else {
-            // update the value.
-            node.value = value;
-            moveToRear(node);
+        if (already != null) {
+            already.value = value;
+            moveToRear(cache.get(key));
+            return;
         }
+
+        DLinkedNode newNode1 = new DLinkedNode(key, value);
+        size++;
+
+        if (size > capacity) {
+            size--;
+            DLinkedNode first = removeHead();
+            cache.remove(first.key);
+        }
+
+        addAtLast(newNode1);
     }
 }

@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffcc6813-3c3d-4b84-98f6-5aaabffc5fc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/personal/CP/rough/cc3_charges.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personal/IE/LFU_cache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personal/IE/LRU_cache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/IE/myRevision.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/String/ib_count_and_say.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/tree/tree_using_level_and_in_order.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personal/IE/LRU_cache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personal/IE/LRU_cache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personal/IE/qstions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/personal/IE/qstions.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +50,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/personal/IE" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/personal/tree" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -56,17 +58,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/personal/tree" />
       <recent name="$PROJECT_DIR$/src/personal/IE" />
       <recent name="$PROJECT_DIR$/src/personal/CP/rough" />
       <recent name="$PROJECT_DIR$/src/personal/bit_manipulation" />
       <recent name="$PROJECT_DIR$/src/personal/CP/CP_qstion" />
-      <recent name="$PROJECT_DIR$/src/personal/trie" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="personal.bit_manipulation" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LRU_cache">
+  <component name="RunManager" selected="Application.a">
     <configuration name="LFU_cache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="personal.IE.LFU_cache" />
       <module name="intellijProjects" />
@@ -93,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="cc3_charges" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personal.CP.rough.cc3_charges" />
+    <configuration name="a" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="personal.String.a" />
       <module name="intellijProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="personal.CP.rough.*" />
+          <option name="PATTERN" value="personal.String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="parenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personal.IE.parenthesis" />
+    <configuration name="cc3_charges" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="personal.CP.rough.cc3_charges" />
       <module name="intellijProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="personal.IE.*" />
+          <option name="PATTERN" value="personal.CP.rough.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.a" />
         <item itemvalue="Application.LRU_cache" />
         <item itemvalue="Application.LFU_cache" />
         <item itemvalue="Application.cc3_charges" />
         <item itemvalue="Application.topological_sort" />
-        <item itemvalue="Application.parenthesis" />
       </list>
     </recent_temporary>
   </component>
@@ -562,6 +564,11 @@
           <url>file://$PROJECT_DIR$/src/personal/IE/LRU_cache.java</url>
           <line>13</line>
           <option name="timeStamp" value="266" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/personal/String/ib_count_and_say.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="267" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/personal/CP/tt2.java</url>

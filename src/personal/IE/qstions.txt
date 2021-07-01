@@ -3,218 +3,215 @@ AMAZON
 ========================================================
 =========================EASY===========================
 ========================================================
-1. clone linked list having arbitrary pointer
-2. LCA of 2 node in Binary tree and BST
-3. There is a 2d array. Write code to find the path with maximum sum.
-    You can only traverse i+1 or j+1
+1. linked-list : clone linked list having arbitrary pointer
+2. tree : LCA of 2 node in Binary tree and BST
+3. DP : There is a 2d array. Write code to find the path with maximum sum.
+        You can only traverse i+1 or j+1
 
-4. find max in bitonic array : [10,20,30,40,4,3,2,1] ==> answer = 40
+4. DP+array : find max in bitonic array : [10,20,30,40,4,3,2,1] ==> answer = 40
 
-5. find min diff b/ any 2 elements in array
-    APPROACH : sort and find diff of all consecutive pairs
+5. array : find min diff b/ any 2 elements in array
+           APPROACH : sort and find diff of all consecutive pairs
 
 
-6.  Given an array of positive numbers, find the maximum sum of a subsequence
-    with the constraint that NO 2 numbers in the sequence should be adjacent in the array.
-    (extended to negative numbers)
+6.  DP : Given an array of positive numbers, find the maximum sum of a subsequence
+        with the constraint that NO 2 numbers in the sequence should be adjacent in the array.
+        (extended to negative numbers)
 
-7. level-order traversal and level-order traversal in sprial form
-8. check if tree is (a)BST , (b)Heap
-9. encode string : aaabcdeeee : a3b1c1d1e4
-10. print triplet whose product is maximum in a given array
+7. tree : level-order traversal and level-order traversal in sprial form
+8. tree : check if tree is (a)BST , (b)Heap
+9. string : encode string : aaabcdeeee : a3b1c1d1e4
+10. array : print triplet whose product is maximum in a given array
 
-11. given string some of the characters are replaced by question mark,
-    and you can replace question mark with any character.
+11. array/string : given string some of the characters are replaced by question mark,
+                   and you can replace question mark with any character.
     Given such a string find total number of palindrome that can created.
     String contains only [a-z] characters and question marks can also be only replaced by [a-z].
     Example: Input String: String str=”a??a” Output: 26
     (is check if corresponding characters from both end match or not,
     if not : answer=0 , else each ? pair has 26 options)
 
-12. merge n sorted linked list into a single sorted linked-list
-13. determine if 2 trees are identical
-14. convert tree to sum tree
-15. left/right/top/bottom/boundary views of binary tree
-16. count island in matrix (move 4 or move 8 adjacent cells)
-17. next greater element (SOLUTION : using stacks)
-18. Given a list of words followed by two words,
-    the task to find the minimum distance between the given two words in the list of words
+12. heap/linked-list : merge n sorted linked list into a single sorted linked-list
+13. tree  : determine if 2 trees are identical
+14. tree  : convert tree to sum tree
+15. tree  : left/right/top/bottom/boundary views of binary tree
+16. graph :  count island in matrix (move 4 or move 8 adjacent cells)
+17. stack :  next greater element (SOLUTION : using stacks)
+18. DP    : Given a list of words followed by two words,
+            the task to find the minimum distance between the given two words in the list of words
 
-19. sort a linked list which is alternating ascending-descending order
-    (seperate 2 list , reverse 2nd list , merge 2 list)
+19. linked-list : sort a linked list which is alternating ascending-descending order
+                  (seperate 2 list , reverse 2nd list , merge 2 list)
 
-20. kth element from last in linked-list
-    (kth from last = N-k+1 from beginning)
+20. linked-list : kth element from last in linked-list
+                  (kth from last = N-k+1 from beginning)
 
-21. print all permutations of string (back-tracking)
+21. back-tracking : print all permutations of string (back-tracking)
 
-22. minimum number of platforms , given arrival and departure of trains
-23. pair with given target in BST
-24. search in sorted rotated array
-25. digit to words : 1234 ==> one thousand two hundred thirty four
-26. swap list , by picking alternate first and last nodes : 1-2-3-4-5-6 ===> 1-6-2-5-3-4
-27. check balanced paranthesis
-28. sort an array of 0,1,2
-29. clone binary tree with random pointers
-    (using hashmap)
+22. array : minimum number of platforms , given arrival and departure of trains
+23. tree  : pair with given target in BST
+24. array+binary-search : search in sorted rotated array
+25. misc  : digit to words : 1234 ==> one thousand two hundred thirty four
+26. linked-list : swap list , by picking alternate first and last nodes : 1-2-3-4-5-6 ===> 1-6-2-5-3-4
+27. stack : check balanced paranthesis
+28. array : sort an array of 0,1,2
+29. tree  : clone binary tree with random pointers
+            (using hashmap)
 
-30. given an array , check if there exists 4-distinct numbers : a,b,c,d , such that a+b=c+d
-    (using HASH-map)
-    (store possible sum of 2 pairs as key and check if complement sum is present)
+30. array : given an array , check if there exists 4-distinct numbers : a,b,c,d , such that a+b=c+d
+            (using HASH-map)
+            (store possible sum of 2 pairs as key and check if complement sum is present)
 
-31. evaluate prefix and postfix expressions
-32. convert string of alphabets to string of digits as in keypad phone : rat==>728
+31. stack/string : evaluate prefix and postfix expressions
+32. hash :  convert string of alphabets to string of digits as in keypad phone : rat==>728
 
-33. reverse linked-list in pairs of K
-34. searching in sorted rotated array , or finding the number of times array was rotated
-35. ways to reach N'th stair , order does NOT matter
-(2,1,1 = 1,2,1 = 1,1,2)
+33. linked-list : reverse linked-list in pairs of K
+34. array+binary-search : searching in sorted rotated array , or finding the number of times array was rotated
+35. misc : ways to reach N'th stair , order does NOT matter
+           (2,1,1 = 1,2,1 = 1,1,2)
 
-36. reversing each word in string : abc def ==> cba fed
-    and reversing word sequence   : abc def ==> def abc
+36. string : reversing each word in string : abc def ==> cba fed
+             and reversing word sequence   : abc def ==> def abc
 
 
-37. number of binary trees with n nodes (nth catlan number)
-38. check if LL has loop
+37. tree + math : number of binary trees with n nodes (nth catlan number)
+38. linked-list : check if LL has loop
 
 
 
 ========================================================
 =========================MEDIUM=========================
 ========================================================
-1. count inversions in an array
-2. word ladder : given string1 , string2 and a dictionary  : find if its possible to go
-    from string1 to string2 using only the wrods in dictionary
-    (using BFS)
+1. array : count inversions in an array
+2. graph : word ladder : given string1 , string2 and a dictionary  : find if its possible to go
+           from string1 to string2 using only the wrods in dictionary
+           (using BFS)
 
-3. addition of numbers represented by linked-list (there are 2 variations to this problem)
+3. linked-list : addition of numbers represented by linked-list (there are 2 variations to this problem)
 
-4. given a matrix and a string : check if that sting occurs in matrix
-    we can only move left,right,top,down
-    (solve using DFS)
+4. graph : given a matrix and a string : check if that sting occurs in matrix
+           we can only move left,right,top,down
+           (solve using DFS)
 
-5. given an array and a number x : print all pais with product as x
-    also handle duplicate pairs case
-    (using hashmap)
+5. array : given an array and a number x : print all pais with product as x
+           also handle duplicate pairs case
+           (using hashmap)
 
-6. Given an array A of N integers,
-   find any 3 elements in it such that A[i] < A[j] < A[k] and i < j < k.
-   TC=SC=n
-   (using 2 extra arrays : storing left min and right max)
+6. array : Given an array A of N integers,
+           find any 3 elements in it such that A[i] < A[j] < A[k] and i < j < k.
+           TC=SC=n
+           (using 2 extra arrays : storing left min and right max)
 
-7. given binary tree , all leaf nodes are forming doubly linked list , find height of tree
-   (criterial for checking leaf node will change :
+7. tree : given binary tree , all leaf nodes are forming doubly linked list , find height of tree
+          (criterial for checking leaf node will change :
    earlier we checked node.left==null && node.right==null
    now we will check
    node == node.left.right && node == node.right.left)
    both conditions must satisfy.
 
-8. LRU cache
+8. misc : LRU cache
 
-9. word frequency in stream of words
+9. trie : word frequency in stream of words
    (using tries)
 
-10. Convert a Binary Search Tree into a Binary tree where value of
-    each node in the tree is equal to sum of all nodes greater than it.
+10. tree : Convert a Binary Search Tree into a Binary tree where value of
+           each node in the tree is equal to sum of all nodes greater than it.
     (METHOD-1 : using auxillary array : do in-order , and find running sum from RHS , and then
     do another inorder to store list elements in tree)
     (METHOD-2 : reverse inorder , maintain global variable as running sum , only 1 traversal is required here)
 
 
-11. given binary matrix , each row is sorted
+11. matrix : given binary matrix , each row is sorted
     find row with maximum 1's
     (binary search on 1st row , the use a pointer : R + logC )
 
-12. connect nodes at same level in Binary tree , using nextRight pointer
+12. tree : connect nodes at same level in Binary tree , using nextRight pointer
 
-13. LIS DP variation using bridge cordinates
+13. DP : LIS DP variation using bridge cordinates
 
-14. bridges and articulation points in graph
+14. graph : bridges and articulation points in graph
 
-15. given 4 cordinates : representing diagonal of 2 rectangles
-    find if reactangles overlap
+15. misc : given 4 cordinates : representing diagonal of 2 rectangles
+           find if reactangles overlap
 
-16. merge 2 BST's ie. print elements in sorted order
-    (expected space : h1+h2)
-    (Solution : iterative inorder)
+16. tree : merge 2 BST's ie. print elements in sorted order
+           (expected space : h1+h2)
+           (Solution : iterative inorder)
 
-17. serialize/de-serialize a binary tree
+17. tree : serialize/de-serialize a binary tree
 
-18. trapping rain water
+18. array : trapping rain water
 
-19. given 2 tree's root nodes , find if 2nd is subtree of another
-    (Solution : get inorder and postorder string of both subtree ,
-    now check sub-strings)
+19. tree : given 2 tree's root nodes , find if 2nd is subtree of another
+           (Solution : get inorder and postorder string of both subtree ,
+           now check sub-strings)
 
-20. given a binary array and k : you can flip atmost k zeros
-    find the length of longest substring of 1's after flip operation
-    (using sliding window approach : window-size can expand only if zero-count is less/equal to k )
+20. array/sliding-window : given a binary array and k : you can flip atmost k zeros
+                           find the length of longest substring of 1's after flip operation
+                            (using sliding window approach : window-size can expand only if zero-count is less/equal to k )
 
-21. longest substring with k uniq chars (sliding window approach)
-
-
-22. alien dictionary : order of words
-    (topological sorting , or using BFS+indegree)
+21. array/sliding-window : longest substring with k uniq chars (sliding window approach)
 
 
-23. print all possible valid parenthesis
-    (back-tracking)
+22. graph : alien dictionary : order of words
+            (topological sorting , or using BFS+indegree)
 
 
-24. next number using same digits : 12345 ==> 12354
-
-25. longest palindromic sustring in a given string
-    (DP[][] ... ij are starting and ending index)
+23. back-tracking : print all possible valid parenthesis
 
 
-26. K'th smallest element in BST : order statistics
+24. array/misc : next number using same digits : 12345 ==> 12354
 
-27. print all nodes at distance k from a given node
-
-28. maximum sum subarray : optimise
-
-29. in-place rotation of matrix by 90 degrees
-
-30. check if linked-list is palindrome or not
-
-31. a.)given chess board , and src and target cordinates
-    find minimum number of moves for knight to go from src to dest
-
-    b.)also there is another variation : knight probability
+25. DP : longest palindromic sustring in a given string
+         (DP[][] ... ij are starting and ending index)
 
 
-32. sprially print matrix
+26. tree : K'th smallest element in BST : order statistics
 
-33. string matching with pattern having . and * : dynamic programming
+27. tree : print all nodes at distance k from a given node
 
-34. median of a stream
+28. DP  : maximum sum subarray : optimise
+
+29. matrix : in-place rotation of matrix by 90 degrees
+
+30. linked-list : check if linked-list is palindrome or not
+
+31. graph : a.)given chess board , and src and target cordinates , find minimum number of moves for knight to go from src to dest
+            b.)also there is another variation : knight probability
+
+
+32. matrix : sprially print matrix
+
+33. DP : string matching with pattern having . and * : dynamic programming
+
+34. heap : median of a stream
 
 
 ======================================================
 =========================HARD=========================
 ======================================================
-1. next smallest palindrome : 12345 ==> 12421
-2. min stack (extended to negative numbers)
-3. stocks buy and sell : all variations
-4. max ractangualar area in histogram  (using stack)
-5. palindrome partioning of string : minimum cuts to make all substrings as palindromes
+1. misc : next smallest palindrome : 12345 ==> 12421
+2. stack : min stack (extended to negative numbers)
+3. array/DP : stocks buy and sell : all variations
+4. stack : max ractangualar area in histogram  (using stack)
+5. back-tracking : palindrome partioning of string : minimum cuts to make all substrings as palindromes
 
 
-6. Dijsktra algo , topological sorting code (standard graph algos)
-7. median of 2 sorted arrays
-8. mutex semaphore discussion
-9. segment tree with lazy propagation
-10. KMP string match algo
-11. create Balance Binary tree
+6. graph : Dijsktra algo , topological sorting code (standard graph algos)
+7. array : median of 2 sorted arrays
+8. misc : mutex semaphore discussion
+9. segment-tree : segment tree with lazy propagation
+10. string : KMP string match algo
+11. tree : create Balance Binary tree
 
-12. rotate each ring of matrix anti-clock by k-elements
-    https://www.geeksforgeeks.org/rotate-ring-matrix-anticlockwise-k-elements/
+12. matrix : rotate each ring of matrix anti-clock by k-elements
+             https://www.geeksforgeeks.org/rotate-ring-matrix-anticlockwise-k-elements/
 
-13. sudoku validator
-14. roman number to interger (i have done this on leetcode)
+13. back-tracking : sudoku validator
+14. misc : roman number to  interger (done this on leetcode)
 
-15. form smallest possible number using sequence of 'd' and 'i'
-example : idd =>  3421
+15. array/stack : form smallest possible number using sequence of 'd' and 'i'
+                   example : idd =>  3421
 
 
 

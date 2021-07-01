@@ -47,8 +47,7 @@ class DLinkedNode {
 
 class LRU {
 
-    private Map<Integer, DLinkedNode> cache = new HashMap<>();
-    private int size;
+    private Map<Integer, DLinkedNode> map = new HashMap<>();
     private int capacity;
     private DLinkedNode FRONT, REAR;
 
@@ -88,7 +87,6 @@ class LRU {
 
 
     public LRU(int capacity) {
-        this.size = 0;
         this.capacity = capacity;
 
         //DUMMY NODES
@@ -100,34 +98,34 @@ class LRU {
     }
 
     public int get(int key) {
-        DLinkedNode node = cache.get(key);
+        DLinkedNode node = map.get(key);
         if (node == null) return -1;
 
         // move the accessed node to the head;
         moveToRear(node);
-
         return node.value;
     }
 
     public void put(int key, int value) {
-        DLinkedNode already = cache.get(key);
-
+        DLinkedNode already = map.get(key);
 
         if (already != null) {
             already.value = value;
-            moveToRear(cache.get(key));
+            moveToRear(map.get(key));
             return;
         }
 
-        DLinkedNode newNode1 = new DLinkedNode(key, value);
-        size++;
+        int curr_size = map.size();
 
-        if (size > capacity) {
-            size--;
+        //if slots-full
+        if (curr_size == capacity) {
             DLinkedNode first = removeHead();
-            cache.remove(first.key);
+            map.remove(first.key);
         }
 
-        addAtLast(newNode1);
+        //finally add new node
+        DLinkedNode newNode = new DLinkedNode(key, value);
+        addAtLast(newNode);
+        map.put(key , newNode);
     }
 }
